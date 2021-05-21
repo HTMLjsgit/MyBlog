@@ -930,7 +930,6 @@ input[name="s"]{
         right: -100%;
         z-index: 100;
         background: rgba(116, 116, 116, 0.8);
-        padding-top: 100px;
         
         transition: 0.7s;
     }

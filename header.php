@@ -2,11 +2,11 @@
     <head>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/reset.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/flickity.css">
         <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <?php if( is_user_logged_in() ) : ?>
         <style type="text/css">
