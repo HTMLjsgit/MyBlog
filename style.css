@@ -89,7 +89,6 @@ header{
     margin-top: 50px;
 }
 #comment{
-    border: 1px solid #3f3f3f;
     max-width: 100%;
     max-height: 150px;
     height: 100%;
@@ -134,6 +133,8 @@ header{
 #comments #reply-title{
     padding-bottom: 10px;
     font-size: 18px;
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 30px;
 }
 #comments #reply-title a{
     font-size: 18px;
@@ -466,6 +467,18 @@ nav{
     animation-duration: 0.5s;
     animation-delay: 3s;
 }
+.comment-form-author{
+    margin-top: 30px;
+}
+.comment-form-url{
+    margin-top: 10px;
+}
+#author{
+    margin-top: 10px;
+}
+.comment-form-email{
+    margin-top: 30px;
+}
 .scroll-images-into-box::before{
     position: absolute;
     top: 0;
@@ -534,6 +547,18 @@ nav{
 }
 .assign-heading-text-box{
     min-width: 213px;
+}
+#commentform input[type="text"], textarea{
+    padding: 3px;
+    border: 1px solid rgb(187, 187, 187);
+}
+
+.comment-form-comment{
+    margin-top: 50px;
+}
+
+.comment-form-cookies-consent{
+    margin-top: 50px;
 }
 .businesses-box{
     display: flex;
@@ -637,6 +662,7 @@ header{
     color: #fff;
     padding-right: 10px;
 }
+
 .Heading-text{
     font-size: 28px;
     text-align: center;
@@ -814,7 +840,6 @@ input[name="s"]{
     .article-show-box{
         max-width: 800px;
         min-width: 800px;
-        padding: 0;
 
     }
 }
@@ -823,6 +848,8 @@ input[name="s"]{
         max-width: 700px;
         min-width: 700px;
         padding-top: 50px;
+        padding: 0;
+
     }
 }
 @media screen and (max-width: 900px){
@@ -849,6 +876,12 @@ input[name="s"]{
 @media screen and (max-width: 680px){
     html body{
         background-color: #fff;
+    }
+    input{
+        max-width: 100%;
+    }
+    input[for="wp-comment-cookies-consent"]{
+        font-size: 15px;
     }
     .scroll-up-text{
         font-size: 18px;
