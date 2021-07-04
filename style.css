@@ -516,7 +516,7 @@ nav{
 }
 .change-image{
     transform: scale(1, 1);
-    transition: 15s;
+    transition: 10s;
     
 }
 .service-content-box{
@@ -585,7 +585,7 @@ header{
     background-color: #fff;
 }
 .change-image.dis{
-    transform: scale(1.1, 1.1);
+    transform: scale(1.2, 1.2);
 }
 .scroll-change-image-box.dis{
     /* display: block; */
@@ -679,11 +679,11 @@ header{
     display: none;
 }
 .article-show-box{
-    max-width: 900px;
+    max-width: 860px;
     padding: 50px;
     background-color: #fff;
     min-height: 100%;
-    min-width: 900px;
+    min-width: 860px;
 }
 .thumbnail-image-blog.show{
     max-height: 450px;
@@ -843,12 +843,12 @@ input[name="s"]{
 
     }
 }
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1050px){
     .article-show-box{
-        max-width: 700px;
-        min-width: 700px;
+        max-width: 600px;
+        min-width: 610px;
         padding-top: 50px;
-        padding: 0;
+        padding: 10px;
 
     }
 }
@@ -859,21 +859,22 @@ input[name="s"]{
     .articles-box{
         padding: 20px;
     }
-
+    .article-show-box{
+        max-width: 600px;
+        min-width: 600px;
+    }
 }
 @media screen and (max-width: 800px){
     .articles-box{
         justify-content: center;
     }
     .article-show-box{
-        max-width: 600px;
-        min-width: 600px;
+        max-width: 500px;
+        min-width: 500px;
     }
     .thumbnail-image-blog.show{
         max-height: 250px;
     }
-}
-@media screen and (max-width: 680px){
     html body{
         background-color: #fff;
     }

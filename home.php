@@ -14,8 +14,20 @@
                     <div class="scroll-change-image-box" id="scroll-change-image-box-3">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/scroll/つながつ.png" class="change-image">
                     </div>
-                    <div class="scroll-change-image-box end" id="scroll-change-image-box-4">
+                    <div class="scroll-change-image-box" id="scroll-change-image-box-4">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/scroll/遊びサーチ.png" class="change-image">
+                    </div>
+                    <div class="scroll-change-image-box" id="scroll-change-image-box-5">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/scroll/GameTrigger.png" class="change-image">
+                    </div>
+                    <div class="scroll-change-image-box" id="scroll-change-image-box-6">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/scroll/EscapeGame.png" class="change-image">
+                    </div>
+                    <div class="scroll-change-image-box" id="scroll-change-image-box-7">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/scroll/RunAwayDinasaur.png" class="change-image">
+                    </div>
+                    <div class="scroll-change-image-box end" id="scroll-change-image-box-8">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/scroll/SanbFight.png" class="change-image">
                     </div>
                     <div class="bottom-scroll-description-box">
                         <a href="#Profile" class="border-move move-link animation scroll">
@@ -126,7 +138,7 @@
                         <h3 class="Heading-content-text">WebService</h3>
                         <ul class="content-scroll" id="flickity">
                             <li class="select-scroll-box">
-                                <a href="https://tunagatu.com" target="_blank">
+                                <a href="https://game-trigger.com" target="_blank">
                                     <div class="description-webservice-one-box">
                                         <div class="description-webservice-one-image-box description-image-box">
                                             <img src="<?php echo get_template_directory_uri(); ?>/img/scroll/GameTrigger.png" class="scroll-description-image">

@@ -40,7 +40,7 @@ $(function(){
 
     });
 
-    const text_smalls = ["CombninationMusic", "IdentWeb", "つながつ", "遊びサーチ"]
+    const text_smalls = ["CombninationMusic", "IdentWeb", "つながつ", "遊びサーチ", "GameTrigger", "EscapeGame", "RunAwayFromDinasaur", "SanbFight"]
     $('.content-scroll').flickity({
         wrapAround:true
     });
