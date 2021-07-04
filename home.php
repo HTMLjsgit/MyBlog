@@ -118,13 +118,6 @@
                     <h3 class="value-word-get-text value-text-tag">取引方法</h3>
                     <p>TwitterのDMにてご連絡ください。</p>
                 </div>
-
-                <div class="business-box">
-                    <h3 class="value-get-money-text value-text-tag">お支払方法</h3>
-                    <p class="space-p">もうしばらくお待ちください。</p>
-                    <!-- <p class="space-p">口座払いとなっております。</p> -->
-                    <!-- <p class="space-p">口座番号: 000 0000 0000 にてご振り込みください。</p> -->
-                </div>
             </div>
             <div class="description-service-box fade_in_box service-content-box" id="Service">
                 <h2 class="Heading-text">Service</h2>
@@ -132,6 +125,23 @@
                     <div class="description-webservice-box content-service">
                         <h3 class="Heading-content-text">WebService</h3>
                         <ul class="content-scroll" id="flickity">
+                            <li class="select-scroll-box">
+                                <a href="https://tunagatu.com" target="_blank">
+                                    <div class="description-webservice-one-box">
+                                        <div class="description-webservice-one-image-box description-image-box">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/img/scroll/GameTrigger.png" class="scroll-description-image">
+                                            <div class="scroll-description-content-text-box">
+                                                <h3 class="scroll-description-content-text">
+                                                    GameTrigger
+                                                </h3>
+                                            </div>
+                                        </div>
+                                        <div class="description-webservice-sentence-box sentence-content-box">
+                                            <p class="space-p">ゲーム大会情報を共有しあうサイト</p>
+                                        </div>
+                                    </div>                           
+                                </a>
+                            </li>
                             <li class="select-scroll-box">
                                 <a href="https://asobisarchapp.herokuapp.com" target="_blank">
                                     <div class="description-webservice-one-box">
@@ -207,6 +217,24 @@
                     <div class="description-game-box content-service">
                         <h3 class="Heading-content-text">Game</h3>
                         <ul class="content-scroll" id="flickity">
+                        <li class="select-scroll-box">
+                                <a href="https://htmljsgit.github.io/EscapeGamePlay/" target="_blank">
+                                    <div class="description-game-one-box">
+                                        <div class="description-game-one-image-box description-image-box">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/img/scroll/EscapeGame.png" class="scroll-description-image">
+                                            <div class="scroll-description-content-text-box">
+                                                <h3 class="scroll-description-content-text">
+                                                    EscapeGame
+                                                </h3>
+                                            </div>
+
+                                        </div>
+                                        <div class="description-game-sentence-box sentence-content-box">
+                                            <p class="space-p">回避して攻撃する単純だけど難しいゲーム</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
                             <li class="select-scroll-box">
                                 <a href="https://unityroom.com/games/run_away_from_dinasaur" target="_blank">
                                     <div class="description-game-one-box">
